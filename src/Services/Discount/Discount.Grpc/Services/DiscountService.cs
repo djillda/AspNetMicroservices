@@ -27,7 +27,7 @@ namespace Discount.Grpc.Services
             {
                 throw new RpcException(new Status(StatusCode.NotFound, $"Discount with ProductName={request.ProductName} is not found."));
             }
-            _logger.LogInformation("dicount is retrieved for ProductName : {productName}, Amount : {amount}", coupon.ProductName, coupon.Amount);
+            _logger.LogInformation("discount is retrieved for ProductName : {productName}, Amount : {amount}", coupon.ProductName, coupon.Amount);
 
             var couponModel = _mapper.Map<CouponModel>(coupon);
             return couponModel;
