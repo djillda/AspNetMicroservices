@@ -7,7 +7,9 @@
         "catalog.api": "StartDebugging",
         "basket.api": "StartDebugging",
         "discount.api": "StartDebugging",
-        "discount.grpc": "StartDebugging"
+        "discount.grpc": "StartDebugging",
+        "ocelotapigw": "StartDebugging",
+        "shopping.aggregator": "StartDebugging"
       }
     }
   }
